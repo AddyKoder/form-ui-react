@@ -1,0 +1,20 @@
+
+.submitInputItem{
+	width: 100%;
+	font-size: 1.4rem;
+	text-align: center;
+	padding-block: 0.5em;
+	background-color: #0bcaff;
+	color:black;
+	border:none;
+	border-radius: 0.25rem;
+	transition: background-color 0.15s;
+
+	margin-top: 2rem;
+}
+
+.submitInputItem:hover{
+	cursor: pointer;
+	color:#0bcaff;
+	background-color: white;
+}

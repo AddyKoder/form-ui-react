@@ -1,0 +1,30 @@
+
+.radioInputItem{
+	width: 100%;
+	padding: 0 1.5em;
+	margin-bottom: 1.5em;
+	position: relative;
+	border-radius: 0.5rem;
+	transition: all .15s linear;
+
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	font-size: 1.2rem;
+}
+
+
+.radioInputItem input{
+	transform: scale(1.5);
+	margin: 1em;
+}
+
+.radioInputItem p{
+	font-size: 1rem;
+	top: -45%;
+	background-color: #131516;
+	color: rgba(255, 255, 255, 0.507);
+	position: absolute;
+	padding-inline: 0.8em;
+	transition: all .15s linear;
+}

@@ -1,0 +1,26 @@
+
+h1{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 0;
+}
+.form{
+	max-width: 1000px;
+	margin-inline: auto;
+	padding: 1em 1em;
+}
+p.success{
+	color:green;
+	text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+	:root{
+		font-size: 11px;
+	}
+	*{
+		border-width: 1px!important;
+		transform: scale(1)!important;
+	}
+	
+}
